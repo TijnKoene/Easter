@@ -24,47 +24,78 @@ h1 {
     margin: 20px auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-/*the level*/
+
+/* Playground Styling */
 .playground {
     position: relative;
-    width: 800px; /* match your image width */
-    margin: 20px auto;
+    width: 800px;
+    margin: 40px auto;
+    z-index: 1;
+
 }
 
 .playground img:first-child {
     width: 100%;
     display: block;
 }
-
-/*All the Eggs:*/
-/*-------------------------------------------------------------------------*/
-
-#egg1 {
-    top: 310px;  /* Sandbox */
-    left: 130px;
+/*playground area*/
+.field{
+    position: relative;
+    width: 800px;
+    margin: 40px auto;
+    z-index: 1;
 }
 
-#egg2 {
-    top: 180px;  /* Under swing */
-    left: 190px;
+.tree{
+    position: relative;
+    top: 100px;
+    left: 150px;
+    z-index: 5;
+    width: 100px;
+}
+/* Egg Styling */
+.egg {
+    position: absolute;
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
 }
 
-#egg3 {
-    top: 220px;  /* Near bottom of slide */
-    left: 530px;
-}
-
-#egg4 {
-    top: 150px;  /* On top of the playhouse */
-    left: 620px;
-}
-
-/*-------------------------------------------------------------------------*/
 .egg.clicked {
     opacity: 0.3;
     transform: scale(0.8);
 }
 
+/* Egg Positions (Adjust as needed based on playground layout) */
+#egg1 {
+    position: relative;
+    top: 310px;  /* Sandbox */
+    left: 130px;
+    z-index: 5;
+}
+
+#egg2 {
+    position: relative;
+    top: 180px;  /* Under swing */
+    left: 190px;
+    z-index: 5;
+}
+
+#egg3 {
+    position: relative;
+    top: 220px;  /* Near bottom of slide */
+    left: 530px;
+    z-index: 5;
+}
+
+#egg4 {
+    position: relative;
+    top: 150px;  /* On top of the playhouse */
+    left: 620px;
+    z-index: 5;
+}
+
+/* Popup */
 .popup {
     position: fixed;
     top: 0;
@@ -75,6 +106,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 9999;
 }
 
 .popup.hidden {
