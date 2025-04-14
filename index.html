@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Happy Easter!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container">
+    <h1>🐰 Happy Easter! 🐣</h1>
+    <section class="info">
+        <h2>What is Easter?</h2>
+        <p>
+            Easter is a Christian holiday that celebrates the resurrection of Jesus Christ from the dead.
+            It is observed on the first Sunday after the first full moon following the vernal equinox.
+            Many Easter traditions, such as the Easter Bunny and egg hunts, have roots in pagan springtime celebrations.
+        </p>
+    </section>
+    <!--First level-->
+    <!-- Playground Level -->
+    <div class="playground">
+        <img src="img/Playground.png" alt="Playground">
 
+        <!-- Hidden Eggs -->
+        <img src="img/Egg1.png" class="egg" id="egg1">
+        <img src="img/Egg1.png" class="egg" id="egg2">
+        <img src="img/Egg1.png" class="egg" id="egg3">
+        <img src="img/Egg1.png" class="egg" id="egg4">
+    </div>
+0
+    <!-- Pop-up -->
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <h2>🎉 You found all the eggs! 🎉</h2>
+            <p>Happy Easter! 🐣</p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

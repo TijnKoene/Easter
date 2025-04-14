@@ -1,0 +1,89 @@
+body {
+    background: #fdf6f0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #d96c77;
+}
+
+.info {
+    background: #fff8e1;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/*the level*/
+.playground {
+    position: relative;
+    width: 800px; /* match your image width */
+    margin: 20px auto;
+}
+
+.playground img:first-child {
+    width: 100%;
+    display: block;
+}
+
+/*All the Eggs:*/
+/*-------------------------------------------------------------------------*/
+
+#egg1 {
+    top: 310px;  /* Sandbox */
+    left: 130px;
+}
+
+#egg2 {
+    top: 180px;  /* Under swing */
+    left: 190px;
+}
+
+#egg3 {
+    top: 220px;  /* Near bottom of slide */
+    left: 530px;
+}
+
+#egg4 {
+    top: 150px;  /* On top of the playhouse */
+    left: 620px;
+}
+
+/*-------------------------------------------------------------------------*/
+.egg.clicked {
+    opacity: 0.3;
+    transform: scale(0.8);
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup.hidden {
+    display: none;
+}
+
+.popup-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
