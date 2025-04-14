@@ -39,52 +39,50 @@ h1 {
 }
 
 .tree{
-    position: relative;
-    top: 100px;
-    left: 150px;
-    z-index: 5;
-    width: 100px;
-}
-/* Egg Styling */
-.egg {
     position: absolute;
-    width: 40px;
-    cursor: pointer;
-    transition: transform 0.3s;
+    top: 110PX;
+    left: 10px;
+    z-index: 5;
+    width: 300px;
+}
+.bush{
+    position: absolute;
+    top: 110PX;
+    left: 10px;
+    z-index: 5;
+    width: 300px;
 }
 
 .egg.clicked {
     opacity: 0.3;
     transform: scale(0.8);
 }
-
+.egg {
+    position: absolute;
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    z-index: 5;
+}
 /* Egg Positions (Adjust as needed based on playground layout) */
 #egg1 {
-    position: relative;
-    top: 310px;  /* Sandbox */
+    top: 310px;
     left: 130px;
-    z-index: 5;
 }
 
 #egg2 {
-    position: relative;
-    top: 180px;  /* Under swing */
+    top: 180px;
     left: 190px;
-    z-index: 5;
 }
 
 #egg3 {
-    position: relative;
-    top: 220px;  /* Near bottom of slide */
+    top: 220px;
     left: 530px;
-    z-index: 5;
 }
 
 #egg4 {
-    position: relative;
-    top: 150px;  /* On top of the playhouse */
+    top: 150px;
     left: 620px;
-    z-index: 5;
 }
 
 /* Popup */
