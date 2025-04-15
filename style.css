@@ -242,10 +242,10 @@ h1 {
 .rosefence{
     pointer-events: none;
     position: absolute;
-    top: 440px;
-    left: 200px;
-    z-index: 10;
-    width: 70px;
+    top: 308px;
+    left: 139px;
+    z-index: 9;
+    width: 113px;
 }
 .sheep1{
     pointer-events: none;
@@ -258,20 +258,66 @@ h1 {
 .cherry{
     pointer-events: none;
     position: absolute;
-    top: 380px;
-    left: 30px;
-    z-index: 10;
-    width: 70px;
+    top: 149px;
+    left: 151px;
+    z-index: 9;
+    width: 245px;
 }
 .shop{
     pointer-events: none;
     position: absolute;
-    top: 380px;
-    left: 60px;
+    top: 222px;
+    left: 28px;
     z-index: 10;
-    width: 70px;
+    width: 184px;
 }
 .Leafytree{
+    pointer-events: none;
+    position: absolute;
+    top: 210px;
+    left: -51px;
+    z-index: 3;
+    width: 176px;
+}
+
+.Silo{
+    pointer-events: none;
+    position: absolute;
+    top: 142px;
+    left: 428px;
+    z-index: 3;
+    width: 281px;
+}
+
+.tree1{
+    pointer-events: none;
+    position: absolute;
+    top: 244px;
+    left: 402px;
+    z-index: 10;
+    width: 163px;
+}
+
+.tree2{
+    pointer-events: none;
+    position: absolute;
+    top: 209px;
+    left: 666px;
+    z-index: 8;
+    width: 167px;
+}
+
+.pig2{
+    pointer-events: none;
+    position: absolute;
+    top: 312px;
+    left: 385px;
+    z-index: 1;
+    width: 64px;
+    transform: scaleX(-1);
+}
+
+.pig3{
     pointer-events: none;
     position: absolute;
     top: 380px;
@@ -279,32 +325,41 @@ h1 {
     z-index: 10;
     width: 70px;
 }
+
+.bushnectar{
+    pointer-events: none;
+    position: absolute;
+    top: 352px;
+    left: 482px;
+    z-index: 10;
+    width: 70px;
+}
 #egg9 {
-    top: 400px;
-    left: 40px;
+    top: 326px;
+    left: 55px;
     width: 25px;
 }
 
 #egg10 {
-    top: 410px;
+    top: 417px;
     left: 300px;
     width: 25px;
 }
 
 #egg11 {
-    top: 425px;
-    left: 706px;
-    width: 25px;
-}
-#egg12 {
-    top: 452px;
+    top: 277px;
     left: 517px;
     width: 25px;
 }
+#egg12 {
+    top: 190px;
+    left: 278px;
+    width: 25px;
+}
 #egg13 {
-    top: 363px;
-    left: 518px;
-    width: 25px
+    top: 414px;
+    left: 718px;
+    width: 25px;
 }
 /* Popup */
 .popup {
